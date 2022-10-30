@@ -8,4 +8,4 @@ RUN git clone https://github.com/Teamofab/TG-videoCompress222
 RUN cd TG-videoCompress222
 WORKDIR /TG-videoCompress222
 RUN pip3 install -U -r requirements.txt
-CMD python:3.9.2-slim-buster
+CMD ["bash","run.sh"]
